@@ -21,14 +21,14 @@ function Details() {
       <main className="bg-base-100">
         <section className="">
           <div
-            className="hero  min-h-screen shadow-inset shadow-2xl"
+            className="hero  min-h-screen shadow-inset shadow-2xl bg-fixed"
             style={{
-              backgroundAttachment: "fixed",
               background:
                 "linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(https://source.unsplash.com/random/1080x800/?movies-collections)",
               boxShadow: `inset black 0 0 ${
-                matches ? "25rem 12rem" : "10rem 6rem"
+                matches ? "25rem 12rem" : "6rem 3rem"
               }`,
+              backgroundAttachment: "fixed",
             }}
           >
             <div className="py-8 hero-content p-0 flex-col lg:flex-row">

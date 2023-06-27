@@ -82,10 +82,11 @@ export default function Home() {
   return (
     <>
       <div
-        className="hero place-items-stretch md:h-screen"
+        className="hero place-items-stretch md:h-screen bg-fixed"
         style={{
-          background: `url(${HeroImg})`,
+          background: `url(${HeroImg}), fixed`,
           height: "90vh",
+          backgroundAttachment: "fixed"
         }}
       >
         <div className="hero-overlay bg-opacity-60"></div>
