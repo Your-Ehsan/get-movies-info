@@ -4,7 +4,10 @@
     "rewrites": [ {
       "source": "**/!(*.js|*.html|*.css|*.jsx|*.json|*.svg|*.png|*.jpg|*.jpeg)",
       "destination": "/index.html"
-    } ],
+    }, {
+      "source": "/robots.txt",
+      "destination": "/robots.txt"
+    }],
     "ignore": [
       "firebase.json",
       "**/.*",

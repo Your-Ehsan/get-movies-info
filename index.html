@@ -4,10 +4,11 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/src/assets/react.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Simple Movie's Info provider Website that gives you some details about movie what you search here">
     <title>Get movie's data</title>
     <!-- Google tag (gtag.js) -->
     <script
-      async
+      defer
       src="https://www.googletagmanager.com/gtag/js?id=G-6SQVJFQM7C"
     ></script>
     <script>
@@ -22,6 +23,14 @@
   </head>
   <body>
     <div id="root"></div>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org/",
+        "@type": "WebSite",
+        "name": "Get Movie's info",
+        "url": "https://get-movies-info.web.app/"
+      }
+    </script>
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
